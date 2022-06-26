@@ -6,7 +6,7 @@ This repository classifies images of one of the "50 most famous places" from htt
 2. Move Repository to jetson-inference/python/training/classification/models/
 3. Go to jetson-inference/python/training/classification/
 4. Enter both lines into terminal:
-   NET=models/Famous-Places-Classification
+   NET=models/Classify-Famous-Places
 5. Enter line into terminal: 
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$NET/labels.txt (IMAGE FILE PATH) (DESIRED END IMAGE NAME)
 6. View classified image directly in Nano or copy to host machine
